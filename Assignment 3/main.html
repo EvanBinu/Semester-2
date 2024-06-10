@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Link to iframe</title>
+    <style>
+    
+    #myIframe {
+        float: right;         
+        width: 50%; 
+        height: 500px; 
+        border: 2px solid black; 
+        margin-top: 50px;
+    }
+    .box{
+        border: 2px solid black;
+        float: left;        
+        width: 46%; 
+        height: 500px; 
+        margin-top: 50px;
+        
+    }
+    a{
+        margin: 30px;
+        color: #000;
+        text-decoration: none ;        
+    }
+    a:hover{
+        color:blueviolet;
+        text-decoration: none;
+    }
+    </style>
+</head>
+    <body>
+        <marquee><h1>My Details</h1></marquee>
+        <div class="box">
+            <h3><a href="pic.html" target="iframe_a">My Pic</a></h3>
+            <h3><a href="index.html" target="iframe_a">My Resume </a></h3>
+            <h3><a href="https://www.amrita.edu/admissions/btech" target="iframe_a">My Institution</a></h3>
+        </div>
+        <iframe id="myIframe" name="iframe_a" src="demo.html" title="Iframe Example"></iframe>
+        
+    </body>
+</html>
