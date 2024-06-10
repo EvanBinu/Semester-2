@@ -55,7 +55,6 @@ const LoginForm = () => {
         const errorMessage = error.message;
         alert("Error logging in user:", errorCode, errorMessage);
       });
-      
   };
 
   return (
